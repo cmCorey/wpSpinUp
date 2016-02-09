@@ -13,5 +13,6 @@
  */
 define('WP_USE_THEMES', true);
 
-/** Loads the WordPress Environment and Template */
-require( dirname( __FILE__ ) . '/wp-blog-header.php' );
+/** Loads the WordPress Environment and Template
+require( dirname( __FILE__ ) . '/wp-blog-header.php' ); */
+require('./wp-bones/wp-blog-header.php');
